@@ -1,0 +1,129 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "ParseGeo",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/parse-geo"
+    },
+
+    {
+      "type": "node",
+      "request": "launch",
+      //    "runtimeVersion": "14.15.3",
+      "name": "DEV Program",
+      "cwd": "${workspaceFolder}/packages/creport-api",
+      "program": "${workspaceFolder}/packages/creport-api/server/server.js",
+      "restart": true,
+      // "console": "integratedTerminal",
+      // "outputCapture": "console",
+      // "internalConsoleOptions": "neverOpen",
+      // "runtimeArgs": ["--nolazy"],
+      "env": {
+        "NODE_ENV": "development",
+        "DEFAULT_INVOICE_MAIL": "thangtrannt@creport.vn",
+        // "PORT": "16000",
+        // "NODE_INIT_DATA_DMA_QUALITY": "hourly",
+        "NODE_INDEX": "",
+        // "NODE_INIT_DATA": "true",
+        // "NODE_INIT_CORE_DATA": "true",
+        "NODE_INIT_TEST_DATA": "",
+        "NODE_BACKUP_TEST_DATA": "",
+        "NODE_RESTORE_TEST_DATA": "",
+        "NODE_EMS_LOGGER": "true",
+        "NODE_EMS_LOGGER_GENERATOR": "false",
+        "NODE_EMS_LOGGER_GENERATOR_TIME": "2020-07-01",
+        // "S3_BUCKET": "prod-ninhbinh-cReport-online",
+        // "S3_KEY": "AKIAZMJCMC5HOEZZQJGS",
+        // "S3_SECRET": "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",
+        "NODE_JOB": "true",
+        "NODE_MODIFY": "",
+        "NODE_DEBUG_JOB": "true",
+        "NODE_LOG_STATISTIC_MAT": "",
+        "NODE_PRODUCT_DB": "",
+        "NODE_INIT_DATA_creport_SOURCE": "", // init data src
+        "NODE_INIT_LOG_creport_SOURCE": "", // init log src
+        "NODE_PUSH_NOTIFICATIONS": "",
+        "NODE_PARSE_DATALOGGER": "",
+        "NODE_CONVERSATION_TEST": "",
+        "NODE_INIT_DATA_QUALITY_NMS": "", // init log chat luong nuoc nms,
+        "ACTIVE_GOOGLE_MAP_API": "" // google geo location
+      },
+      "envFile": "${workspaceFolder}/.env"
+    },
+
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "DEV INIT",
+      "runtimeExecutable": "node",
+      "cwd": "${workspaceFolder}/packages/creport-api",
+      "program": "${workspaceFolder}/packages/creport-api/server/server.js",
+      "restart": true,
+      "console": "integratedTerminal",
+      "outputCapture": "console",
+      "internalConsoleOptions": "neverOpen",
+      "runtimeArgs": ["--nolazy"],
+      "env": {
+        "NODE_ENV": "development",
+        "NODE_INDEX": "true",
+        "NODE_INIT_DATA": "",
+        "NODE_INIT_CORE_DATA": "",
+        "NODE_INIT_TEST_DATA": "",
+        "NODE_BACKUP_TEST_DATA": "",
+        "NODE_RESTORE_TEST_DATA": "",
+        "NODE_EMS_LOGGER": "true",
+        "NODE_EMS_LOGGER_GENERATOR": "",
+        "NODE_JOB": "true",
+        "NODE_DEBUG_JOB": "",
+        "NODE_LOG_STATISTIC_MAT": ""
+      },
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "DEV IMPORT_REF_GEO",
+      "runtimeExecutable": "node",
+      "cwd": "${workspaceFolder}/packages/creport-api",
+      "program": "${workspaceFolder}/packages/creport-api/server/server.js",
+      "restart": true,
+      "console": "integratedTerminal",
+      "outputCapture": "console",
+      "internalConsoleOptions": "neverOpen",
+      "runtimeArgs": ["--nolazy"],
+      "env": {
+        "NODE_ENV": "development",
+        "NODE_INIT_DATA": "",
+        "NODE_INIT_CORE_DATA": "",
+        "NODE_INDEX": "",
+        "DEBUG": "",
+        "NODE_IMPORT_REF_GEO": "true"
+      },
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "TEST PROD BN",
+      "runtimeExecutable": "node",
+      "cwd": "${workspaceFolder}/packages/creport-api",
+      "program": "${workspaceFolder}/packages/creport-api/server/server.js",
+      "env": {
+        "NODE_ENV": "production",
+        "NODE_PRODUCT_DB": "bacninh"
+      }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Current",
+      "program": "${file}"
+    }
+  ]
+}

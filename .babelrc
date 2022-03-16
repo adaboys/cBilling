@@ -1,0 +1,12 @@
+{
+    "presets": ["env", "react"],
+    "plugins": [
+      "transform-react-jsx",
+      "transform-decorators-legacy",
+      "transform-class-properties",
+      "transform-object-rest-spread",
+      "syntax-trailing-function-commas",
+      "dynamic-import-webpack",
+      "react-hot-loader/babel"
+    ]
+  }

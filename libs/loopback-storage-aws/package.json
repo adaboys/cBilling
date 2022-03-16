@@ -1,0 +1,38 @@
+{
+  "name": "creportLib-storage-aws",
+  "description": "creportLib Storage Service",
+  "engines": {
+    "node": ">=6"
+  },
+  "version": "3.5.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha --timeout 3000",
+    "posttest": "npm run lint"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "debug": "^3.1.0",
+    "formidable": "^1.2.1",
+    "mongodb": "^3.6.0",
+    "pkgcloud": "^1.7.0",
+    "strong-globalize": "^4.1.1",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-creportLib": "^10.0.0",
+    "express": "^4.16.3",
+    "mkdirp": "^0.5.1",
+    "mocha": "^5.2.0",
+    "request": "^2.87.0",
+    "semver": "^5.5.0",
+    "supertest": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/strongloop/creportLib-component-storage.git"
+  },
+  "license": "Artistic-2.0"
+}

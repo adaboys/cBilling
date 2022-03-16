@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.MuiFormControl-root-61 {
+  display: flex !important;
+}
+
+
+.grid-form {
+  max-width: 800px;
+}
