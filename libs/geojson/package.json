@@ -1,8 +1,0 @@
-{
-  "name": "geojson",
-  "version": "1.0.0",
-  "main": "geojson.js",
-  "author": "creport",
-  "license": "MIT",
-  "private": true
-}
