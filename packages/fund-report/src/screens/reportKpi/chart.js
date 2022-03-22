@@ -33,7 +33,7 @@ const data5 = [];
 
 const options5 = {
   backgroundColor: 'transparent',
-  title: 'Summarized fund',
+  title: 'Summarized cBilling',
 };
 
 class CreatePostJob extends Component {
@@ -44,7 +44,7 @@ class CreatePostJob extends Component {
       <div>
         <Grid middle container spacing={4} direction="row" justifyContent="center" alignItems="center">
           <Grid middle item xs={12} sm={6}>
-            <div>Fund statistic (1k Ada)</div>
+            <div>cBilling statistic (1k Ada)</div>
             <br />
             <BarChart width={730} height={280} data={data3}>
               <CartesianGrid strokeDasharray="3 3" />

@@ -28,7 +28,7 @@ class ListPostJob extends Component {
     const { translate, ...rest } = this.props;
    
     return (
-      <List {...rest} filters={<Filters />} resource="reportfunds"  title={walletAddress} hasCreate={true}  bulkActionButtons={false}>
+      <List {...rest} filters={<Filters />} resource="reportcBillings"  title={walletAddress} hasCreate={true}  bulkActionButtons={false}>
         <Datagrid >
           <TextField source="name" label="Transaction name" />
          

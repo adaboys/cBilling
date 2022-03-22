@@ -2,14 +2,14 @@ import { RevenueIcon } from '../../styles/Icons';
 import ReportKpi from './ReportKpi';
 
 export default {
-  name: 'reportFund',
+  name: 'reportcBilling',
   label: 'generic.pages.reportKpi',
   icon: RevenueIcon,
-  url: 'reportFund',
+  url: 'reportcBilling',
   screens: {
     main: ReportKpi
   },
-  resources: ['reportfunds'],
+  resources: ['reportcBillings'],
   active: true,
   access: {
     read: [],

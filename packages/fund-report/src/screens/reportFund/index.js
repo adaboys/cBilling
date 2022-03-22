@@ -1,21 +1,21 @@
 import { RevenueIcon } from '../../styles/Icons';
-import ListreportFund from '../../resources/reportFund/listreportFund';
-import CreatereportFund from '../../resources/reportFund/createreportFund';
-import EditreportFund from '../../resources/reportFund/editreportFund';
-import ShowreportFund from '../../resources/reportFund/showreportFund';
+import ListreportcBilling from '../../resources/reportcBilling/listreportcBilling';
+import CreatereportcBilling from '../../resources/reportcBilling/createreportcBilling';
+import EditreportcBilling from '../../resources/reportcBilling/editreportcBilling';
+import ShowreportcBilling from '../../resources/reportcBilling/showreportcBilling';
 
 export default {
-  name: 'reportFund',
-  label: 'generic.pages.reportFund',
+  name: 'reportcBilling',
+  label: 'generic.pages.reportcBilling',
   icon: RevenueIcon,
-  url: 'fundhistory',
+  url: 'cBillinghistory',
   screens: {
-    list: ListreportFund,
-    create: CreatereportFund,
-    edit: EditreportFund,
-    show: ShowreportFund,
+    list: ListreportcBilling,
+    create: CreatereportcBilling,
+    edit: EditreportcBilling,
+    show: ShowreportcBilling,
   },
-  resources: ['reportfunds'],
+  resources: ['reportcBillings'],
   active: true,
   access: {
     read: [],

@@ -9,7 +9,7 @@ class ShowPostJob extends Component {
   render() {
     const { translate, ...rest } = this.props;
     return (
-      <Show {...rest} resource="reportfunds">
+      <Show {...rest} resource="reportcBillings">
         <FlexForm toolbar={false} style={{ flexGrow: 1 }} spacing={2}>
           <Grid middle container spacing={2}>
             <Grid middle item xs={12} sm={4}>

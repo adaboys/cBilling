@@ -7,10 +7,10 @@
     "lintPath": "eslint",
     "lintFix": "eslint . --fix",
     "build-lib": "cd packages/ra-creportLib3 && yarn -s build-export",
-    "run-api": "cd packages/fund-report-api && yarn -s start",
+    "run-api": "cd packages/cBilling-report-api && yarn -s start",
 
-    "run-cms": "cd packages/fund-report && yarn -s start",
-    "build-cms": "cd packages/fund-report-web && yarn -s build"
+    "run-cms": "cd packages/cBilling-report && yarn -s start",
+    "build-cms": "cd packages/cBilling-report-web && yarn -s build"
    
   },
   "devDependencies": {

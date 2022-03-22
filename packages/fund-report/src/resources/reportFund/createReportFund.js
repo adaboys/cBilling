@@ -17,7 +17,7 @@ class CreatePostJob extends Component {
   render() {
     const { props } = this;
     return (
-      <Create {...props} resource="reportfunds">
+      <Create {...props} resource="reportcBillings">
         <FlexForm style={{ flexGrow: 1 }} spacing={2} redirect="list" submitOnEnter={false}>
         <Grid middle container spacing={2}>
             <Grid middle item xs={12} sm={6}>

@@ -1,4 +1,4 @@
-Number of funded proposals audited
+Number of cBillinged proposals audited
 
 Considering that the idea is to audit and report on the development of proposals in different challenges, 
 it is important that success metrics are thought out in relation to each challenge.
@@ -13,7 +13,7 @@ Financials
 
 Number of onboarded developers.
 
-Number of commits in funded proposal repositories (Github)
+Number of commits in cBillinged proposal repositories (Github)
 
 Indicators of: transactions, volume and unique wallets interacting with dapps.
 
