@@ -1,0 +1,55 @@
+{
+	"Logging": {
+		"LogLevel": {
+			"Default": "Information",
+			"Microsoft": "Warning",
+			"Microsoft.AspNetCore": "Warning"
+		}
+	},
+	"AllowedHosts": "*",
+	"App": {
+		"debug": true,
+		"environment": "staging",
+		"version": {
+			"code": 1,
+			"name": "1.0.0"
+		},
+		"database": {
+			"connection": "Data Source=54.255.142.237,1433;Initial Catalog=cbilling;User ID=sa;Password=Staging1234!"
+		},
+		"jwt": {
+			"key": "edd54ddb397d4606998e1ace0095b1f2.-!lUhLkhrww76tJAQo@k!_@0atpe63l",
+			"issuer": "cbilling",
+			"audience": "client",
+			"subject": "token",
+			"expiresInSeconds": 10000000,
+			"refreshExpiresInSeconds": 100000000
+		},
+		"mail": {
+			"fromEmail": "darkcompet@gmail.com",
+			"fromName": "CBilling",
+			"smtpUsername": "AKIA3ATVRTLUUR52H7FD",
+			"smtpPassword": "BEP4HY7Sm5wv9d1w7Dv2rs5JLID6n9UUBP9bmkPLW1q4",
+			"region": "ap-southeast-1"
+		},
+		"cardanoNode": {
+			"apiKey": "92da1a09517f47cba4a010b80cc39a9c9O@NvmzAai_JAc7A!O8j-u8vjt6eFoA.",
+			"apiBaseUrl": "http://34.124.153.147:10001/api/s1"
+		},
+		"serviceApiKeys": [
+			"575627228c124cf08c58e02550b95c2aFH.T.A_MzMrPqY9!L2u@SZjG0l-tkE30",
+			"aa14c7b46cfd4bbd82a45d8b070fa68711F!6bH_QFaBcv.-f@o!9cAl0OqVJVlq"
+		],
+		"rootUserTemplate": {
+			"email": "darkcompet@gmail.com",
+			"password": "1234"
+		},
+		"aws": {
+			"s3BaseUrl": "https://darkcompet-ironsky.s3.ap-southeast-1.amazonaws.com"
+		},
+		"exchangeRate": {
+			"apiBaseUrl": "https://rest-sandbox.coinapi.io",
+			"apiKey": "4B3C77C4-D6E5-48DD-ACDD-EE95AC242EE5"
+		}
+	}
+}
