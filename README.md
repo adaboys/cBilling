@@ -1,2 +1,3 @@
-# cReport 
-to generate Cardano bills/invoices
+# Api Core
+
+Submodule for another apis.
